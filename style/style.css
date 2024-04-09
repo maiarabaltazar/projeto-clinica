@@ -14,16 +14,26 @@ h1 img {
         text-align: center;
         line-height: 1.5; 
         font-weight: normal;
-        margin-right: 5%;
-        margin-left: 7%;
+        margin-right: 2%;
+        margin-left: 2%;
         
        
     }
 
     .row {
+        justify-content: center;
         margin-top: 20px; 
-        margin-right: 5%;
+        margin-right: 2%;
     }
+
+.accordion {
+    justify-content: center;
+    text-align: center;
+}
+
+.accordion-button {
+    justify-content: center;
+}
 
 
  
