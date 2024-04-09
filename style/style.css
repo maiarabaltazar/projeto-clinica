@@ -1,45 +1,88 @@
 h1 img {
-       width: 100%;
-        height: auto; 
-        display: block; 
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
+.cabeca {
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+  top: 0;
+  width: 100%;
+}
 
 #nav {
-   background-color: #e3f2fd;
+  background-color: #e3f2fd;
 }
 
 .card {
-        margin-bottom: 20px; 
-        text-align: center;
-        line-height: 1.5; 
-        font-weight: normal;
-        margin-right: 2%;
-        margin-left: 2%;
-        
-       
-    }
+  margin-bottom: 2em;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: normal;
+  margin-right: 2%;
+  margin-left: 2%;
+}
 
-    .row {
-        justify-content: center;
-        margin-top: 20px; 
-        margin-right: 2%;
-    }
+.row {
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 2%;
+  padding-bottom: 2em;
+  padding-top: 15em;
+}
 
 .accordion {
-    justify-content: center;
-    text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .accordion-button {
-    justify-content: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #c4e2e4;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 
- 
 
-footer {
-    background-color: #C4E2E4;
-    text-align: center;
-    margin-bottom: 0%;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .row {
+        padding-top: 10em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .row {
+        padding-top: 12em;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .row {
+        padding-top: 15em;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .row {
+        padding-top: 17em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .row {
+        padding-top: 24em;
+    }
 }
