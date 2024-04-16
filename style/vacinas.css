@@ -1,18 +1,9 @@
 h2 {
-    margin-top: 25%;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.list-group {
-    text-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-section {
    
-    margin-bottom: 5%;
     text-align: center;
-    text-decoration:overline;
+    margin-bottom: 5%;
+}
+
+.card-vacina {
+    display: flex ; align-items: center; justify-content: center;
 }
