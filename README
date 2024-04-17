@@ -1,0 +1,23 @@
+# Projeto de Clínica Médica 💉
+
+Este é um projeto em andamento da faculdade que simula uma clínica médica, onde os pacientes podem fazer login e marcar consultas. O projeto é desenvolvido usando HTML, CSS, PHP, JavaScript e integração com banco de dados.
+
+## Funcionalidades Principais 🚀
+
+- **Login de Pacientes:** Os pacientes podem fazer login em suas contas utilizando credenciais fornecidas pela clínica.
+
+- **Agendamento de Consultas:** Os pacientes podem agendar consultas com médicos disponíveis na clínica.
+
+## Tecnologias Utilizadas 🛠️
+
+- **HTML e CSS:** Utilizados para a estruturação e estilização das páginas web.
+
+- **PHP:** Utilizado para a lógica do servidor, incluindo processamento de formulários, autenticação de usuários e interação com o banco de dados.
+
+- **JavaScript:** Utilizado para aprimorar a experiência do usuário, como validação de formulários e interações dinâmicas na página.
+
+- **Banco de Dados:** Utilizado para armazenar informações de pacientes, médicos, consultas e outras informações relevantes.
+
+## Contribuição 🤝
+
+Contribuições são bem-vindas! Se você encontrar um bug, tem uma ideia para uma nova funcionalidade ou gostaria de fazer melhorias no código existente, sinta-se à vontade para abrir uma issue ou enviar um pull request.

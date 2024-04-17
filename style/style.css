@@ -1,0 +1,103 @@
+h1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cabeca {
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+  top: 0;
+  width: 100%;
+}
+
+#nav {
+  background-color: #e3f2fd;
+}
+
+.card {
+  margin-bottom: 2em;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: normal;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.content-container {
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 2%;
+  padding-bottom: 2em;
+  padding-top: 15em;
+}
+
+.accordion {
+  justify-content: center;
+  text-align: center;
+}
+
+.accordion-button {
+  justify-content: center;
+}
+
+.card-apresentacao img {
+  border-radius: 50%;
+  
+}
+
+.card-apresentacao {
+  text-align: justify;
+  
+}
+
+.profissionais {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #c4e2e4;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .content-container {
+        padding-top: 10em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .content-containerr {
+        padding-top: 12em;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .content-container {
+        padding-top: 15em;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .content-container {
+        padding-top: 17em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .content-container {
+        padding-top: 26em;
+    }
+}

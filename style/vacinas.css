@@ -1,0 +1,20 @@
+h2 {
+   
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.card-vacina {
+    display: flex ; align-items: center; justify-content: center;
+}
+
+.card-vacina .row {
+    justify-content: center;
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
+    
+

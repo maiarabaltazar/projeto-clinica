@@ -1,0 +1,19 @@
+.planos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plano {
+    text-align: center;
+    
+}
+
+.plano img {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+.plano p {
+    margin-top: 5px;
+}
