@@ -52,6 +52,11 @@ h1 img {
   
 }
 
+.profissionais {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 footer {
   background-color: #c4e2e4;
   text-align: center;
@@ -93,6 +98,6 @@ footer {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .content-container {
-        padding-top: 23em;
+        padding-top: 26em;
     }
 }
