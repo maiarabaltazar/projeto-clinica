@@ -2,18 +2,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20%;
 }
 
 .plano {
     text-align: center;
-    
+    margin: 10px;
 }
 
 .plano img {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
+    max-width: 100%;
     height: auto;
+    max-height: 100px; 
+    vertical-align: middle; 
 }
 
 .plano p {
-    margin-top: 5px;
+    margin-top: 10px;
+    font-weight: bold;
 }
