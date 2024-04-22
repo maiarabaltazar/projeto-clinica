@@ -14,24 +14,32 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-        margin-top: 70%;
+    .quemsomos {
+         margin-top: 70%;
         margin-bottom: 20%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .quemsomos{
         margin-top: 70%;
         margin-bottom: 20%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    margin-top: 30%;
+    .quemsomos{
+        margin-top: 30%;
         margin-bottom: 20%;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .quemsomos {   
         margin-top: 40%;
         margin-bottom: 20%;
+    }
 }
