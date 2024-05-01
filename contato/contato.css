@@ -2,12 +2,12 @@
 .faleconosco {
     border: 1px solid;
     border-radius: 20px;
-    margin: 6% 20%;
+    
     padding: 4%;
     justify-content: center;
     border-color: #2d97df;
-    /* margin: 2px 3px 2px 3px;
-    margin: 2px 3px; */
+    margin: 2% 20%;
+    
 }
 
 .botton {
@@ -15,15 +15,16 @@
 }
 
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) 
 @media only screen and (max-width: 600px) {
     .faleconosco {
-        margin-top: 5em;
+        margin-top: 2em;
+       
         
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and up) 
 @media only screen and (min-width: 600px) {
     .faleconoscor {
         margin-top: 5em;
@@ -31,7 +32,7 @@
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+ Medium devices (landscape tablets, 768px and up) 
 @media only screen and (min-width: 768px) {
     .faleconosco{
         margin-top:2em;
@@ -39,7 +40,7 @@
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+ Large devices (laptops/desktops, 992px and up) 
 @media only screen and (min-width: 992px) {
     .faleconosco{
         margin-top: 5em;
@@ -47,10 +48,11 @@
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+ Extra large devices (large laptops and desktops, 1200px and up) 
 @media only screen and (min-width: 1200px) {
     .faleconosco{
         margin-top: 5em;
+        margin-bottom: 5em;
         
     }
-}
+}*/

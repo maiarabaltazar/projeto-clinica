@@ -11,20 +11,20 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/agendamento.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/agendamentos/agendamento.css" />
   </head>
 
   <body>
   
     <div class="cabeca">
         <h1>
-          <img src="images/Header.png" alt="capa" />
+          <img src="/images/Header.png" alt="capa" />
         </h1>
   
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Home</a>
+            <a class="navbar-brand" href="/index.html">Home</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -39,12 +39,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="contato.html"
+                  <a class="nav-link active" aria-current="page" href="/contato/contato.html"
                     >Fale conosco</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="quemsomos.html">Quem somos</a>
+                  <a class="nav-link" href="/quemsomos/quemsomos.html">Quem somos</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -58,37 +58,35 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="agendamento-consultas.html">Consultas</a>
+                      <a class="dropdown-item" href="/agendamentos/agendamento-consultas.html">Consultas</a>
                     </li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="agendamento-exames.html">Exames</a></li>
+                    <li><a class="dropdown-item" href="/agendamentos/agendamento-exames.html">Exames</a></li>
                   </ul>
                 </li>
               </ul>
-              <a href="login.html" class="btn btn-primary">Login</a>
+              <a href="/login/login.html" class="btn btn-primary">Login</a>
             </div>
           </div>
         </nav>
       </div>
 
     <div class="agendamento">
-        <h1>Agendamento de Exames</h1>
+        <h1>Agendamento de Consultas</h1>
         <form action="#" method="post" id="appointment-form">
-            <label for="doctor">Tipo de Exame:</label>
+            <label for="doctor">Especialidade:</label>
             <select name="doctor" id="doctor">
-                <option value="eletrocardiograma">Eletrocardiograma</option>
-                <option value="ultrassonografia">Ultrassonografia</option>
-                <option value="radiografia">Radiografia (Raio-X)</option>
-                <option value="endoscopia">Endoscopia</option>
-                <option value="colonoscopia">Colonoscopia</option>
+                <option value="ginecologista">Ginecologista</option>
+                <option value="cardiologista">Cardiologista</option>
+                <option value="pediatra">Pediatra</option>
+                <option value="endocrinologista">Endocrinologista</option>
             </select>
 
             <label for="date">Data e Horário:</label>
             <input type="datetime-local" id="date" name="date">
 
-            <button type="submit">Agendar Exame</button>
+            <button type="submit">Agendar Consulta</button>
         </form>
-        <section><strong>Observação:</strong> Para exames de sangue não é necessário agendamento prévio.</section>
     </div>
 
     <footer>
