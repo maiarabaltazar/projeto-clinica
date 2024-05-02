@@ -51,32 +51,48 @@
         </div>
       </nav>
 
+      <section class="formulario">
+        <div class="container-form">
+            <h2>Cadastre a sua conta</h2>
+
+            <ul class="menu-form">
+                <li><a href="/login/login.html">Login</a></li>
+                <li><a href="/login/cadastro.html">Cadastro</a></li>
+            </ul>
+
+            <form id="cadastro-form" class="dados">
+                <div class="placeholder-input">
+                    <input type="text" id="nome" name="nome" placeholder="Digite o seu nome">
+                </div>
+                <div class="placeholder-input">
+                    <input type="text" id="email" name="email" placeholder="Digite o seu e-mail">
+                </div>
+                <div class="placeholder-input">
+                    <input type="text" id="cpf" name="cpf" placeholder="Digite o seu CPF">
+                </div>
+                <div class="placeholder-input">
+                    <input type="password" id="senha" name="senha" placeholder="Sua Senha">
+                    <button type="button" id="info-senha">ℹ️</button>
+                    <div id="senha-requisitos" class="senha-requisitos"></div>
+                </div>
+                <div class="placeholder-input">
+                    <input type="password" id="confirmarsenha" name="confirmarsenha" placeholder="Confirme a sua senha">
+                </div>
+
+                <input type="submit" name="Enviar" value="Cadastrar">
+            </form>
+        </div>
     </section>
-    <section class="formulario">
-      <div class="container-form">
-      <h2>Cadastre a sua conta</h2>
+    
 
-      <ul class="menu-form">
-        <li><a href="/login/login.html">Login</a></li>
-        <li><a href="/login/cadastro.html">Cadastro</a></li>
-      </ul>
-
-      <form class="dados">
-        <input type="text" name="nome" placeholder="Digite o seu nome">
-        <input type="text" name="email" placeholder="Digite o seu e-mail">
-        <input type="text" name="cpf" placeholder="Digite o seu CPF">
-        <input type="password" name="senha" placeholder="Sua Senha">
-        <input type="password" name="confirmarsenha" placeholder="Confirme a sua senha">
-
-        <input type="submit" name="Enviar" value="Cadastrar">
-      </form>
-      </div>
-    </section>
-<footer>
+   <footer>
       <p>Clínica Salutare © 2024 - Todos os direitos reservados</p>
     </footer>
-  </body>
 
+    <script src="cadastro.js"></script>
+
+  </body>
+  
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
