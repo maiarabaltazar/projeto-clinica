@@ -1,7 +1,18 @@
-.content-container {
-    text-align: center;
+section {
+    text-align: justify;
+    margin-left: 120px;
+}   
+
+.content-container  {
+
+   position: relative;
+   padding-right: 30px;
 
 }
+
+
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
