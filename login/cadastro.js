@@ -94,6 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         success: function (res) {
           console.log(res);
+          alert("Cadastrado com sucesso!");
           window.location.href = "/login/login.html";
         },
       });

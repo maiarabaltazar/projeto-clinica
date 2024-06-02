@@ -1,19 +1,24 @@
-
-.faleconosco {
-    border: 1px solid;
-    border-radius: 20px;
-    
-    padding: 4%;
-    justify-content: center;
-    border-color: #2d97df;
-    margin: 2% 20%;
-    
+h2 {
+    padding-top: 40px;
+    text-align: center;
 }
 
-.botton {
-    margin-top: 2%;
-}
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
 
 /* Extra small devices (phones, 600px and down) 
 @media only screen and (max-width: 600px) {
