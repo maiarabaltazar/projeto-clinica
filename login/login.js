@@ -19,44 +19,44 @@ function login() {
     return;
   }
 
-  testelogin(email, senha);
-
-  
+  fazer_login(email, senha);
 }
 
-function testelogin(email, senha) {
-  console.log(email, senha)
-    // fetch("http://localhost/clinica_salutare_backend/login.php", {
-    //   method: "POST", 
-    //   body: JSON.stringify ({
-    //     "email": email,
-    //     "senha": senha
-    // },)
-    // }).then((value)=>{
-    //   console.log (value);
-    //   window.location.href = "/index.html";
-    // })
-    $.ajax({
-      url: "http://localhost:80/clinica_salutare_backend/login.php",
-      method: "POST",
+function fazer_login(email, senha) {
+  console.log(email, senha);
+  // fetch("http://localhost/clinica_salutare_backend/login.php", {
+  //   method: "POST",
+  //   body: JSON.stringify ({
+  //     "email": email,
+  //     "senha": senha
+  // },)
+  // }).then((value)=>{
+  //   console.log (value);
+  //   window.location.href = "/index.html";
+  // })
+  $.ajax({
+    url: "http://localhost:80/clinica_salutare_backend/login.php",
+    method: "POST",
 
-      data: JSON.stringify( {
-        email,
-        senha,
-      }),
+    data: JSON.stringify({
+      email,
+      senha,
+    }),
 
-      crossDomain: true,
-      
-      
-      contentType:'application/json',
-      
+    crossDomain: true,
 
-      success: function (res) {
-        console.log (res);
+    contentType: "application/json",
+
+    success: function (res) {
+      var data = JSON.parse(res);
+
+      var user = data[0];
+
+      localStorage.setItem("user", JSON.stringify(user)); //guardando no navegador  usuario que pegou no BD
+
       window.location.href = "/index.html";
-       
-      },
-    });
+    },
+  });
   // $.support.cors = true;
   // $.post("http://localhost:80/clinica_salutare_backend/login.php", {
   //   email: "maiaraemuitolinda@gmail.com",

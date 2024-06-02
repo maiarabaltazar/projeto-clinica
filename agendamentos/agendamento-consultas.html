@@ -58,10 +58,10 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="/agendamentos/agendamento-consultas.html">Consultas</a>
-                    </li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="/agendamentos/agendamento-exames.html">Exames</a></li>
+                      <a class="dropdown-item" href="/agendamentos/agendamento-consultas.html">Agendar consulta</a>
+                  </li>
+                   <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="/agendamentos/minhas_consultas.html">Minhas Consultas</a></li>
                   </ul>
                 </li>
               </ul>
@@ -73,27 +73,31 @@
 
     <div class="agendamento">
         <h1>Agendamento de Consultas</h1>
-        <form action="#" method="post" id="appointment-form">
-            <label for="doctor">Especialidade:</label>
-            <select name="doctor" id="doctor">
-                <option value="ginecologista">Ginecologista</option>
+        
+            <label for="especialidades">Especialidade:</label>
+            <select name="especialidades" id="especialidades">
+                <!-- <option value="ginecologista">Ginecologista</option>
                 <option value="cardiologista">Cardiologista</option>
                 <option value="pediatra">Pediatra</option>
-                <option value="endocrinologista">Endocrinologista</option>
+                <option value="endocrinologista">Endocrinologista</option> -->
             </select>
 
             <label for="date">Data e Horário:</label>
             <input type="datetime-local" id="date" name="date">
 
-            <button type="submit">Agendar Consulta</button>
-        </form>
+            <button onclick="agendar_consulta()">Agendar Consulta</button>
+       
     </div>
 
     <footer>
         <p>Clínica Salutare © 2024 - Todos os direitos reservados</p>
       </footer>
     </body>
-  
+    
+    <script src="../jquery-3.7.1.min.js"></script>
+
+    <script src="agendamento_consulta.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

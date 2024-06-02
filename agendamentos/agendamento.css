@@ -1,6 +1,5 @@
 
 .agendamento {
-    max-width: 800px;
     border: solid #c4e2e4;
     background-color: #fff;
     padding: 20px;
@@ -17,7 +16,7 @@ h1 {
 
 label {
     display: block;
-    margin-top: 15px;
+    margin-top: 2%;
     color: #666;
 }
 
@@ -48,6 +47,10 @@ button:hover {
 
 section {
     text-align: center;
+}
+
+.cancelar {
+    color: red;
 }
 
 
@@ -83,6 +86,6 @@ section {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .agendamento {   
-        margin: 25% ;
+        margin: 17% ;
     }
-}
+} 

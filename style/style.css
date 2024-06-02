@@ -46,10 +46,10 @@ h1 img {
 footer {
   background-color: #c4e2e4;
   text-align: center;
-  position: absolute;
-  margin-bottom: 0;
+  bottom: 0;
+  position: fixed;
   width: 100%;
-  
+        
 }
 
 

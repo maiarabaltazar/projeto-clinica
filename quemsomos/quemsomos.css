@@ -1,17 +1,14 @@
 section {
     text-align: justify;
     margin-left: 120px;
+    margin-right: 40%;
+    
 }   
 
-.content-container  {
-
-   position: relative;
-   padding-right: 30px;
-
+.fachada {
+    margin-right: 5%;
+    
 }
-
-
-
 
 
 /* Extra small devices (phones, 600px and down) */
