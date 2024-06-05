@@ -24,16 +24,7 @@ function login() {
 
 function fazer_login(email, senha) {
   console.log(email, senha);
-  // fetch("http://localhost/clinica_salutare_backend/login.php", {
-  //   method: "POST",
-  //   body: JSON.stringify ({
-  //     "email": email,
-  //     "senha": senha
-  // },)
-  // }).then((value)=>{
-  //   console.log (value);
-  //   window.location.href = "/index.html";
-  // })
+  
   $.ajax({
     url: "http://localhost:80/clinica_salutare_backend/login.php",
     method: "POST",
@@ -57,11 +48,5 @@ function fazer_login(email, senha) {
       window.location.href = "/index.html";
     },
   });
-  // $.support.cors = true;
-  // $.post("http://localhost:80/clinica_salutare_backend/login.php", {
-  //   email: "maiaraemuitolinda@gmail.com",
-  //   senha: "maiaralinda",
-  // }, function(a, b, c){
-  //   console.log ("alguma coisa")
-  // }, "json");
+  
 }
